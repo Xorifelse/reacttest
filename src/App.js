@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
-import Title from './components/Title'
 import logo from './logo.svg';
 import './App.css';
+
+import Title from './components/Title'
+import LightSwitch from './components/LightSwitch'
+import Users from './components/Users'
+import Clock from './components/Clock'
 
 
 
@@ -17,6 +21,8 @@ class App extends Component {
         <main>
           <Title content="Hello" />
           <LightSwitch />
+          <Users />
+          <Clock />
         </main>
       </div>
     );
